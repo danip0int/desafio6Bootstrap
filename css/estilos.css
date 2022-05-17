@@ -2,6 +2,16 @@
 body{
 	font-family: 'Oxygen', sans-serif;
 	font-size: 400;
+	height: 100%;
+    width: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+a{
+	list-style: none;
+    text-decoration: none;
+	color: darkorange;
 }
 #carrusel{
 	position: relative;
@@ -19,17 +29,20 @@ body{
 	z-index: 2;
 }
 .titulosHome{
+	margin-left: 5px;
 	font-size: 3rem;
 }
 .destinosHome{
 	background-color: #fafafa;
 }
 #footer{
+	padding: 1em 0;
 	width: 100%;
 	height: 150px;
+	margin-top: auto;
 
 }
-@media all and (max-width 768px){
+@media all and (max-width: 768px){
 	.titulosHome{
 	font-size: 2rem;
 }
